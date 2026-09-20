@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khalid Taxi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Khalid Taxi</h1>
+    <nav>
+        <a href="#home">Hem</a>
+        <a href="#services">Tjänster</a>
+        <a href="#prices">Priser</a>
+        <a href="#booking">Boka</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <h2>Trygg & punktlig taxi i Karlstad</h2>
+    <p>Vi erbjuder professionell service dygnet runt.</p>
+    <a href="#booking" class="btn">Boka Taxi</a>
+</section>
+
+<section id="services">
+    <h2>Tjänster</h2>
+    <ul>
+        <li>Flygplatskörningar</li>
+        <li>Färdtjänst</li>
+        <li>Skolskjuts</li>
+        <li>Företagskunder</li>
+        <li>Privatkörningar</li>
+    </ul>
+</section>
+
+<section id="prices">
+    <h2>Priser</h2>
+    <p>Startavgift: 49 kr</p>
+    <p>Km‑pris: 12 kr/km</p>
+    <p>Fast pris till Karlstad Airport: 350 kr</p>
+</section>
+
+<section id="booking">
+    <h2>Boka Taxi</h2>
+    <form id="bookingForm">
+        <label>Namn:</label>
+        <input type="text" id="name" required>
+
+        <label>Telefon:</label>
+        <input type="text" id="phone" required>
+
+        <label>Upphämtningsadress:</label>
+        <input type="text" id="pickup" required>
+
+        <label>Destination:</label>
+        <input type="text" id="destination" required>
+
+        <label>Tid:</label>
+        <input type="datetime-local" id="time" required>
+
+        <button type="submit">Skicka bokning</button>
+    </form>
+
+    <p id="confirmation"></p>
+</section>
+
+<section id="contact">
+    <h2>Kontakt</h2>
+    <p>📞 Telefon: 070‑000 00 00</p>
+    <p>📧 E‑post: info@khalidtaxi.se</p>
+    <p>📍 Karlstad, Värmland</p>
+</section>
+
+<footer>
+    <p>© 2026 Khalid Taxi</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
